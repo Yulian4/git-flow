@@ -3,3 +3,299 @@ body {
     position: relative;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+
+.section5 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3vw 0;
+}
+
+.div-section-5 {
+    padding-top: 3vw;
+    display: flex;
+    justify-content: center;
+    gap: 10vw;
+}
+
+.item-5 {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    width: 20vw;
+}
+
+.item-5 img {
+    width: 7vh;
+}
+
+
+.section6 {
+    text-align: center;
+    background-color: rgb(245, 245, 245);
+    padding: 10vh;
+}
+
+.lista-precios {
+    display: flex;
+    justify-content: center;
+    gap: 3vw;
+    margin-top: 8vh;
+}
+
+.precios {
+    background-color: white;
+    width: 340px;
+}
+
+.precios:hover {
+    transform: scale(1.1);
+}
+
+.precios:hover .dialog {
+    display: block;
+}
+
+.precios:hover .dialog-2 {
+    display: none;
+}
+
+.dialog {
+    background: rgb(245, 135, 51);
+    display: none;
+    color: white;
+    padding: 0.5vh;
+}
+
+.dialog-2 {
+    background: rgb(245, 135, 51);
+    height: 1vh;
+
+}
+
+.arriba-dialog {
+    background-color: rgb(51, 51, 51);
+    color: white;
+}
+
+.arriba-dialog h3 {
+    margin-top: 0;
+    border-bottom: 1px solid white;
+    padding: 15px;
+}
+
+.arriba-dialog p {
+    margin-bottom: 0;
+    padding: 15px;
+    font-style: italic;
+}
+
+.section6 span {
+    font-size: 3.8rem;
+    font-weight: 700;
+}
+
+.precios ul li {
+    color: #929292;
+    border-top: solid 1px #e0dede;
+    padding: 1vh 2vw;
+    margin: 0;
+}
+
+.section7 {
+    text-align: center;
+    padding: 15vh;
+}
+
+.mensajes {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 8vw;
+    margin-top: 5vh;
+}
+
+.mensajes #img {
+    height: 10vh;
+    border-radius: 50%;
+}
+
+.mensaje img {
+    display: block;
+}
+
+.mensaje .texto {
+    position: absolute;
+    top: 10px;
+    padding: 0 12px 10px 12px;
+    font-style: italic;
+}
+
+.mensaje {
+    display: inline-block;
+    position: relative;
+}
+
+.container-men {
+    display: flex;
+    flex-direction: column;
+}
+
+.nombre {
+    display: flex;
+}
+
+.nombre h5 {
+    margin: 1vh;
+}
+
+.section8 {
+    position: relative;
+    background-image: url(./assets/images/bg2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 50.3vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: #ffffff;
+    overflow: hidden;
+}
+
+.section8::before,.section1::before  {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    z-index: 1;
+    pointer-events: none;
+}
+
+.section8>,.section1> {
+    position: relative;
+    z-index: 2;
+}
+
+.section8 #hr {
+    background-color: white;
+}
+
+.section8 p {
+    color: white;
+}
+
+.section9 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 12vh 0;
+}
+
+.section9 form {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 4vw;
+    margin-top: 5vh;
+
+}
+
+.section9 input {
+    margin: 13px;
+    border: none;
+    border-bottom: 2px solid gray;
+    width: 35vw;
+    margin: 3.5vh 0;
+}
+
+.section9 textarea {
+    border: none;
+    border-bottom: 2px solid gray;
+    width: 35vw;
+    padding: 0 0 20vh;
+}
+
+.form1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.section9 .button {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: 10vh;
+}
+
+footer {
+    background: black;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    gap: 2vw;
+    padding-top: 4vh;
+
+}
+
+footer img {
+    width: 25px;
+}
+
+p,
+button {
+    font-size: 0.93rem;
+    color: #aaaaaa;
+}
+
+h3 {
+    font-size: 1.3rem;
+    font-family: Arial, sans-serif;
+}
+
+#hr {
+    width: 5vw;
+    margin-bottom: 18px;
+    height: 2.3px;
+    border-radius: 5px;
+    background-color: rgb(245, 139, 56);
+    margin: 0 auto 18px auto;
+    display: block;
+}
+.section9 button,.text-section-2 button {
+    background-color: rgba(255, 139, 56);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    width: 12vw;
+    height: 7.3vh;
+}
+
+.section5 h1, .section6 h1, .section8 h1, .section9 h1 {
+    font-size: 2.3rem;
+    font-weight: 100;
+    line-height: 7vh;
+    margin-bottom: 16px;
+}
+
+.section8 button,
+.right-form button {
+    background: transparent;
+    color: white;
+    padding: 10px 20px;
+    border: 2px solid white;
+}
