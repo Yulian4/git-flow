@@ -3,3 +3,260 @@ body {
     position: relative;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+header {
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(0, 0, 0);
+    justify-content: space-between;
+    padding: 1.3vh 10.6vw 1.3vh 7.4vw;
+}
+
+nav img {
+    height: 4.5vh;
+    margin-top: 1.8vh;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    gap: 47px;
+    color: white;
+    list-style: none;
+}
+.menu-toggle {
+    display: none;
+    flex-direction: column;
+    gap: 5px;
+    cursor: pointer;
+}
+
+.menu-toggle span {
+    width: 30px;
+    height: 3px;
+    background: white;
+    transition: 0.3s;
+}
+
+#menu-checkbox {
+    display: none;
+}
+
+
+.section1 {
+    background-image: url(../assets/images/headerBg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 80.3vh;
+    width: auto;
+    display: flex;
+    align-items: center;
+    padding: 5.5vh 7.2vw;
+    justify-content: space-between;
+    position: relative;
+
+}
+
+.right-form {
+    width: 40vw;
+    color: white;
+    height: 74%;
+    padding: 0;
+}
+
+.right-form h1 {
+    font-size: 2.3rem;
+    font-weight: 100;
+    line-height: 7vh;
+    margin-top: 3.4vh;
+    letter-spacing: 1.7px;
+    margin-bottom: 12vh;
+}
+
+.right-form p {
+    margin-bottom: 8vh;
+}
+
+.right-form img {
+    height: 10vh;
+}
+
+.form {
+    background: white;
+    border-radius: 2px;
+    text-align: center;
+    width: 24.3vw;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    margin-right: 3.8vw;
+    margin-bottom: 5vh;
+}
+
+.form input {
+    width: 73%;
+    padding: 6px 12px;
+    margin-bottom: 52px;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.form button {
+    width: 100%;
+    height: 3.5vw;
+    background: rgba(255, 155, 81);
+    border: none;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 3px;
+    margin-top: auto;
+}
+
+.form h5 {
+    font-size: 1.4rem;
+    font-weight: 650;
+    margin-top: 2.2vh;
+}
+
+.h5{
+    background: rgb(245, 245, 245);
+    height: 8vh;
+    margin-bottom: 5vh;
+}
+
+.div1 {
+    display: flex;
+    padding: 2.2vh 12.5vw 0 7.5vw;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 3vh;
+}
+
+.div1-1 {
+    width: 35%;
+}
+
+.div1-1 h3, .div1-1 p {
+    margin: 0.3vh;
+}
+
+.div1-2 img {
+    margin-right: 43.7px;
+}
+
+.div1-2 img:last-child {
+    margin-right: 0;
+}
+
+.section2 {
+    display: flex;
+    gap: 7.5vw;
+    padding: 16vh 0;
+    background: rgb(245, 245, 245);
+}
+
+.slider {
+    max-width: 35%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2vh 0 0 6.8vw;
+}
+
+.slider button {
+    height: 15.3vh;
+    width: 6.8vw;
+    background-color: rgb(51, 51, 51);
+    color: white;
+}
+
+.slider button:hover {
+    background-color: rgba(255, 139, 56);
+
+}
+
+.contenido-1 {
+    max-width: 70%;
+    display: flex;
+}
+
+.text-section-2 {
+    display: block;
+    padding: 0 5vw;
+}
+
+.text-section-2 p {
+    margin-top: 7.4vh;
+    width: 85%;
+}
+
+.text-section-2 #p2 {
+    margin-top: 3.5vh;
+    margin-bottom: 8vh;
+}
+
+.text-section-2 h3 {
+    margin-top: 2.4vh;
+    word-spacing: 3px
+}
+
+.img-section-2 img {
+    margin-top: 5.6vh;
+    margin-right: 8vh;
+    height: 30vh;
+}
+
+.section3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15vw;
+    padding: 11vh 6vw;
+}
+
+hr {
+    margin-left: 0;
+    margin-right: 87%;
+    border-color:rgba(255, 139, 56);;
+}
+
+.img-section-3 img {
+    box-shadow: 5px 7px #e2dddd57;
+}
+
+.text-section-3 {
+    width: 29vw;
+}
+
+.text-section-3 h4 {
+    display: flex;
+    align-items: center;
+    gap: 1vw;
+    margin-bottom: 0;
+    font-weight: 500;
+}
+
+#text-title {
+    margin-left: 3vw;
+    margin-top: 0;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+.section4 {
+    background:rgb(245, 245, 245);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 14vh 15vw;
+    gap: 10vw;
+}
+
+.text-section-4 {
+    width: 40%;
+}
